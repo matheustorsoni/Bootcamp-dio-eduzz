@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import * as S from "./styled";
-import useGithub from "src\hooks\github-hook.js";
+import useGithub from "../../hooks/github-hooks";
 
 const Header = () => {
   const { getUser } = useGithub();
+
   const [usernameForSearch, setUsernameForSearch] = useState();
 
   const submitGetUser = () => {
@@ -19,6 +20,7 @@ const Header = () => {
           placeholder="Digite o username para pesquisa..."
           onChange={(event) => setUsernameForSearch(event.target.value)}
         />
+        
         <button type="submit" onClick={submitGetUser}>
           <span>Buscar</span>
         </button>
