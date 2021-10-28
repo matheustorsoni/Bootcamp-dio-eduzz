@@ -61,7 +61,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/matheustorsoni/Bootcamp-eduzz-dio.git>
+$ git clone <https://github.com/matheustorsoni/Bootcamp-dio-eduzz.git>
 
 # Acesse a pasta do projeto no terminal/cmd ou usando a opcao guit bash here
 $ cd my-app
